@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav li {
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: 1px;
+}
+
+.title-block {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.title-section {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: medium;
+}
+
+.button {
+    color: #fff;
+    text-decoration: blue;
+    margin: 10px;
+}
+
+/* Contact form */
+.contact-form {
+    background-color: coral;
+}
+
+.contact-button {
+    text-align: center;
+}
+
+/* Home page styles */
+#management {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+
+.second-hp {
+    background-color: blueviolet;
+}
