@@ -3,22 +3,41 @@
     padding: 0;
 }
 
+#logo {
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+}
+
 body {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+nav {
+    background-color: #fff;
+    padding: 2px;
+    width: 100%;
+}
+
+nav ul {
+    text-align: center;
 }
 
 nav li {
     list-style-type: none;
     text-transform: uppercase;
+    display: inline-block;
+    margin: 8px;
 }
 
 nav a {
-    color: #fff;
+    color: #000;
     text-decoration: none;
 }
 
 .active {
-    border-bottom: 1px;
+    border-bottom: 1px solid #000;
 }
 
 .title-block {
@@ -38,6 +57,11 @@ nav a {
     margin: 10px;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 /* Contact form */
 .contact-form {
     background-color: coral;
@@ -53,6 +77,75 @@ nav a {
     color: #fff;
 }
 
+.title-block {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.first-hp {
+    width: 100%;
+}
+
 .second-hp {
     background-color: blueviolet;
+}
+
+.services-section {
+    margin: auto;
+    width: 70%;
+}
+
+.p-section {
+    text-align: left;
+}
+
+/* Media Queries */
+
+/* For mobiles */
+@media only screen and (max-width: 600px) {
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+nav {
+        text-align: right;
+        width: 100%;
+        height: auto;
+}
+
+.first-hp {
+    width: 100%;
+}
+
+.title-block {
+    background-color: rgba(139, 0, 0, 0.2);
+}
+
+.span-second-hp {
+    width: 80%;
+    text-align: center;
+    margin: 5%;
+}
+
+.p-section {
+    text-align: center;
+    width: 80%;
+}
+
+}
+
+/* For desk */
+@media only screen and (min-width: 1200px) {
+
+#logo {
+    height: 2px;
+    width: auto;
+}
+
+.span-second-hp {
+    display: inline-block;
+    width: 40%;
+}
 }
