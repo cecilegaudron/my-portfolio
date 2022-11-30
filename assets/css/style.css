@@ -72,6 +72,8 @@ img {
 }
 
 /* Home page styles */
+
+/* Home page first section w picture and title */
 #management {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
@@ -85,6 +87,13 @@ img {
 .first-hp {
     width: 100%;
 }
+
+.first-img {
+    height: 100%;
+    background: url('../images/bunker-holga.jpg') no-repeat center center;
+}
+
+/* Home page second section w txt */
 
 .second-hp {
     background-color: blueviolet;
