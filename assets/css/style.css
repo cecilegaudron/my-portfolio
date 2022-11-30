@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Satisfy&display=swap');
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
 
@@ -13,12 +15,17 @@ img {
     height: auto;
 }
 
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
 /* General styles for text */
 .title-paragraph {
     text-transform: uppercase;
     color: #fff;
     font-size: medium;
     text-align: center;
+    font-family: 'Fjalla One', sans-serif;
 }
 
 .title-section {
@@ -89,7 +96,7 @@ nav a {
 }
 
 #title-block h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Fjalla One', sans-serif;;
     font-size: 4rem;
     color: #fff;
     text-align: right;
@@ -97,7 +104,7 @@ nav a {
 }
 
 #title-block h3 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Satisfy', cursive;;
     font-size: 2rem;
     color: #fff;
     text-align: right;
