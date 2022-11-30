@@ -13,6 +13,13 @@ img {
     height: auto;
 }
 
+.title-paragraph {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: medium;
+    text-align: center;
+}
+
 /* header with logo and navigation */
 #logo {
     background-color: #fff;
@@ -57,12 +64,6 @@ nav a {
 
 /* Home page styles */
 
-.title-section {
-    text-transform: uppercase;
-    color: #fff;
-    font-size: medium;
-}
-
 /* Home page first section w picture and title */
 #management {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -87,7 +88,8 @@ nav a {
 /* Home page second section w txt */
 
 .second-hp {
-    background: url('../images/leaf.jpg') no-repeat center center;
+    background: url('../images/leaf.jpg') no-repeat;
+    width: 100%;
 }
 
 #experience {
@@ -103,17 +105,14 @@ nav a {
 /* Home page third section services */
 .third-hp {
     width: 100%;
+    background: url('../images/church-holga.jpg') no-repeat;
 }
 
 .services-section {
     margin: auto;
-    padding: 70 0;
+    padding: 10%;
     width: 70%;
-}
-
-.p-section {
-    text-align: center;
-    width: 80%;
+    text-align: justify;
 }
 
 .button {
