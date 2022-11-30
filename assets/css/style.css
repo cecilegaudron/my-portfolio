@@ -71,7 +71,9 @@ nav a {
 
 /* Contact form */
 .contact-form {
-    background-color: coral;
+    background-color: brown;
+    padding: 2%;
+    margin: 2%;
 }
 
 .contact-button {
