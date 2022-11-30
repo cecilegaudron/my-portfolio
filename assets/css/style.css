@@ -6,6 +6,7 @@
 #logo {
     background-color: #fff;
     margin: auto;
+    width: 30%;
 }
 
 body {
@@ -104,40 +105,16 @@ img {
     width: 80%;
 }
 
-/* Media Queries */
-
-/* For mobiles */
-@media only screen and (max-width: 600px) {
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-nav {
-        width: 100%;
-        height: auto;
-}
-
-.first-hp {
-    width: 100%;
-}
-
-.title-block {
-    background-color: rgba(139, 0, 0, 0.2);
-}
-
 .span-second-hp {
     width: 80%;
     text-align: center;
     margin: 5%;
 }
 
-#logo {
-    width: 30%;
-}
+/* Media Queries */
 
-}
+/* For mobiles */
+
 
 /* For desk */
 @media only screen and (min-width: 1200px) {
