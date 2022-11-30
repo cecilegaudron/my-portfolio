@@ -25,6 +25,7 @@ img {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
+    padding: 5%;
 }
 
 /* Header with logo and navigation */
@@ -72,25 +73,41 @@ nav a {
 /* Home page styles */
 
 /* Home page first section w picture and title */
-#management {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #fff;
+
+#title-block {
+    width: 60%;
+    height: 30%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: auto;
+    
+    padding-top: 40px;
+    padding-left: 10px;
+
+    right: 150px;
+    bottom: 500px;
 }
 
-.title-block {
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.2);
+#title-block h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10rem;
+    color: #fff;
+    text-align: right;
+}
+
+#title-block h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5rem;
+    color: #fff;
+    text-align: right;
 }
 
 .first-hp {
     width: 100%;
-    height: 70%;
+    height: 600px;
     background: url('../images/bunker-holga.jpg') no-repeat center center;
 }
 
-.first-img {
-    height: auto;
-}
 
 /* Home page second section w txt */
 
