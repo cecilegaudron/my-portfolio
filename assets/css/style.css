@@ -134,9 +134,10 @@ nav a {
     padding-top: 5%;
 }
 
-#experience {
-    text-align: center;
-    padding: 10px;
+.second-hp ul {
+    text-align: left;
+    padding: 0 20%;
+    color: #fff;
 }
 
 /* Home page third section services */
