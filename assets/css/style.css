@@ -3,15 +3,21 @@
     padding: 0;
 }
 
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* header with logo and navigation */
 #logo {
     background-color: #fff;
     margin: auto;
     width: 30%;
-}
-
-body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
 }
 
 nav {
@@ -40,28 +46,6 @@ nav a {
     border-bottom: 1px solid #000;
 }
 
-.title-block {
-    background-color: rgba(0, 0, 0, 0.2);
-    color: #fff;
-}
-
-.title-section {
-    text-transform: uppercase;
-    color: #fff;
-    font-size: medium;
-}
-
-.button {
-    color: #fff;
-    text-decoration: blue;
-    margin: 10px;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
 /* Contact form */
 .contact-form {
     background-color: coral;
@@ -72,6 +56,12 @@ img {
 }
 
 /* Home page styles */
+
+.title-section {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: medium;
+}
 
 /* Home page first section w picture and title */
 #management {
@@ -99,6 +89,18 @@ img {
     background-color: blueviolet;
 }
 
+#experience {
+    text-align: center;
+    padding: 10px;
+}
+
+.span-second-hp {
+    width: 80%;
+    text-align: center;
+    margin: 5%;
+}
+
+/* Home page third section services */
 .third-hp {
     width: 100%;
 }
@@ -114,10 +116,10 @@ img {
     width: 80%;
 }
 
-.span-second-hp {
-    width: 80%;
-    text-align: center;
-    margin: 5%;
+.button {
+    color: #fff;
+    text-decoration: blue;
+    margin: 10px;
 }
 
 /* Media Queries */
