@@ -20,7 +20,7 @@ nav {
 }
 
 nav ul {
-    text-align: center;
+    text-align: center
 }
 
 nav li {
@@ -115,7 +115,6 @@ img {
 }
 
 nav {
-        text-align: right;
         width: 100%;
         height: auto;
 }
