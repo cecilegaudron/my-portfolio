@@ -20,6 +20,12 @@ img {
     text-align: center;
 }
 
+.title-section {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* header with logo and navigation */
 #logo {
     background-color: #fff;
