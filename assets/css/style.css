@@ -72,12 +72,25 @@ nav a {
 /* Contact form */
 .contact-form {
     background-color: brown;
-    padding: 2%;
+    padding: 5%;
     margin: 2%;
+    color: #fff;
+    line-height: 2;
 }
 
 .contact-button {
     text-align: center;
+    text-transform: uppercase;
+    background-color: #fff;
+    color: brown;
+    border: none;
+    padding: 2%;
+    margin: auto;
+    border-radius: 5%;
+}
+
+input[type=text] {
+    width: 100%;
 }
 
 /* Home page styles */
