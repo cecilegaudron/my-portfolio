@@ -4,9 +4,8 @@
 }
 
 #logo {
-    width: 30%;
-    height: auto;
     background-color: #fff;
+    margin: auto;
 }
 
 body {
@@ -90,13 +89,19 @@ img {
     background-color: blueviolet;
 }
 
+.third-hp {
+    width: 100%;
+}
+
 .services-section {
     margin: auto;
+    padding: 70 0;
     width: 70%;
 }
 
 .p-section {
-    text-align: left;
+    text-align: center;
+    width: 80%;
 }
 
 /* Media Queries */
@@ -129,9 +134,8 @@ nav {
     margin: 5%;
 }
 
-.p-section {
-    text-align: center;
-    width: 80%;
+#logo {
+    width: 30%;
 }
 
 }
@@ -139,13 +143,13 @@ nav {
 /* For desk */
 @media only screen and (min-width: 1200px) {
 
-#logo {
-    height: 2px;
-    width: auto;
-}
-
 .span-second-hp {
     display: inline-block;
     width: 40%;
 }
+
+#logo {
+    width: 8%;
+}
+
 }
