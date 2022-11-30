@@ -160,15 +160,17 @@ nav a {
 }
 
 .button-section {
-    background-color: #fff;
+    background-color: rgba(250, 55, 55, 0.6);
     width: 50%;
     margin: auto;
     padding: 5%;
-    border-radius: 20%;
+    border-radius: 10%;
+
 }
 
 .button-section p {
     text-align: center;
+    color: #fff;
 }
 
 /* Media Queries */
