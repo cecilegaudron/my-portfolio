@@ -120,20 +120,20 @@ input[type=text], input[type=email] {
     margin: 2%;
 }
 
-#contact-ways i {
+#contact-ways > i {
     font-size: 2rem;
     display: inline-block;
 
 }
 
-#contact-ways span, div {
+#contact-ways ~ div {
     margin: auto;
     text-align: center;
     background-color: #fff;
     padding: 5%;
 }
 
-#contact-ways a, :hover, p {
+#contact-ways > a, :hover, p {
     text-decoration: none;
     color: #000;
 }
