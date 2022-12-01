@@ -23,6 +23,25 @@ section {
     overflow: hidden;
 }
 
+/* footer */
+
+footer {
+    background-color: black;
+    color: #fff;
+    overflow: hidden;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+    line-height: 2rem;
+}
+
+footer a, :active {
+    color: #fff;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
 /* General styles for text */
 .title-paragraph {
     text-transform: capitalize;
