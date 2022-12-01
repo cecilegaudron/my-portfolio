@@ -19,6 +19,10 @@ h2 {
     font-family: 'Fjalla One', sans-serif;
 }
 
+section {
+    overflow: hidden;
+}
+
 /* General styles for text */
 .title-paragraph {
     text-transform: capitalize;
@@ -76,6 +80,7 @@ nav a {
     margin: 2%;
     color: #fff;
     line-height: 2;
+    overflow: hidden;
 }
 
 .contact-button {
@@ -146,6 +151,7 @@ input[type=text], input[type=email] {
     height: 500px;
     background-color: brown;
     text-align: center;
+    overflow: hidden;
 }
 
 .second-hp .title-paragraph {
@@ -162,6 +168,7 @@ input[type=text], input[type=email] {
 .third-hp {
     width: 100%;
     background: url('../images/church-holga.jpg') no-repeat;
+    overflow: hidden;
 }
 
 .services-section {
