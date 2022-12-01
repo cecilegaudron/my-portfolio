@@ -7,7 +7,7 @@
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+    font-size: 1.2rem;
 }
 
 img {
@@ -118,6 +118,11 @@ input[type=text], input[type=email] {
     width: 70%;
     padding: 2%;
     margin: 2%;
+}
+
+#contact-ways i {
+    font-size: 2rem;
+    display: inline-block;
 }
 
 /* Home page styles */
