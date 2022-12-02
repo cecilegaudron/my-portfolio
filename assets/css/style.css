@@ -131,12 +131,6 @@ input[type=text], input[type=email] {
 
 }
 
-#contact-ways ~ div {
-    margin: auto;
-    text-align: center;
-    background-color: #fff;
-    padding: 5%;
-}
 /*
 #contact-ways > a, :hover, p {
     text-decoration: none;
