@@ -43,7 +43,7 @@ footer a {
 }
 
 footer a:hover {
-    border: 0.2rem;
+    color:rgba(250, 55, 55, 0.6);
 }
 
 
