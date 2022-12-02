@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
 }
 
@@ -173,16 +173,16 @@ To maintain the center elements, I use the attributes flex-direction and display
 }
 
 #title-block h2 {
-    font-family: 'Fjalla One', sans-serif;;
+    font-family: 'Fjalla One', sans-serif;
     font-size: 4rem;
     color: #fff;
     text-align: right;
     padding: 2%;
 }
 
-#title-block h3 {
-    font-family: 'Satisfy', cursive;;
-    font-size: 2rem;
+.sub-title-block {
+    font-family: 'Satisfy', cursive !important;
+    font-size: 3rem !important;
     color: #fff;
     text-align: right;
     padding: 2%;
