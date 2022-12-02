@@ -272,7 +272,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 /* For desk */
 @media only screen and (min-width: 1200px) {
 
-.span-second-hp {
+.second-hp div {
     display: inline-block;
     width: 40%;
 }
