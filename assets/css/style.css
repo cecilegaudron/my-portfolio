@@ -131,6 +131,7 @@ input[type=text], input[type=email] {
 
 #contact-ways > span {
     text-align: center;
+    margin: 5%;
 }
 
 #contact-ways a {
