@@ -30,22 +30,22 @@ footer {
     color: #fff;
     overflow: hidden;
     margin: auto;
-    width: 100%;
     text-align: center;
     padding: 5%;
     line-height: 2rem;
 }
-/*
+
 footer a {
     color: #fff;
     text-decoration: none;
     font-size: 2rem;
+    letter-spacing: 1rem;
 }
 
-footer ~ a:hover {
-    color: blue;
+footer a:hover {
+    border: 0.2rem;
 }
-*/
+
 
 /* General styles for text */
 .title-paragraph {
@@ -131,12 +131,6 @@ input[type=text], input[type=email] {
 
 }
 
-/*
-#contact-ways > a, :hover, p {
-    text-decoration: none;
-    color: #000;
-}
-*/
 /* Home page styles */
 
 /* Home page first section w picture and title */
