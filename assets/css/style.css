@@ -62,7 +62,6 @@ footer a:hover {
     font-size: 3.5rem;
     text-align: center;
     text-transform: uppercase;
-    padding: 5%;
 }
 
 /* Header with logo and navigation */
@@ -203,21 +202,28 @@ To maintain the center elements, I use the attributes flex-direction and display
 .second-hp {
     /*background: url('../images/leaf.jpg') no-repeat;*/
     width: 100%;
-    height: 500px;
+    height: auto;
     background-color: brown;
     text-align: center;
     overflow: hidden;
 }
 
+.second-hp > div {
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+}
 .second-hp .title-paragraph {
     padding-top: 5%;
 }
 
 .second-hp ul {
-    text-align: left;
-    padding: 0 20%;
+    text-align: center;
     color: #fff;
+    list-style-type: square;
+    list-style-position: inside;
 }
+
 
 /* Home page third section services */
 
