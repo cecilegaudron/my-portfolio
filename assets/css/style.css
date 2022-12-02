@@ -23,6 +23,7 @@ section {
     overflow: hidden;
 }
 
+
 /* footer */
 
 footer {
@@ -102,10 +103,10 @@ nav a {
 /* Contact form */
 .contact-form {
     background-color: brown;
-    padding: 5%;
     color: #fff;
     line-height: 2;
     overflow: hidden;
+    width: 100%;
 }
 
 .contact-button {
@@ -123,7 +124,12 @@ input[type=text], input[type=email] {
 }
 
 #contact-ways {
+    margin: 2%;
     padding: 2%;
+}
+
+#form-div {
+    margin: 2%;
 }
 
 #contact-ways i {
