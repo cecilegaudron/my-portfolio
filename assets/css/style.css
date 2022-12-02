@@ -214,19 +214,29 @@ input[type=text], input[type=email] {
 }
 
 /* Home page third section services */
+
+/* to center my background-color on the picture, I use the code "how to center vertically and horizontaly" from W3schools.com 
+Add a position relative to the section parent
+Add a position absolute to the child div, add values for top and left, add an attribute transform with values, put margin to 0 */
 .third-hp {
     width: 100%;
     background: url('../images/church-holga.jpg') no-repeat;
     overflow: hidden;
     height: 600px;
+    position: relative;
 }
 
 .services-section {
-    margin: auto;
+    margin: 0;
     padding: 2%;
     width: 90%;
+    height: 80%;
     text-align: justify;
     background-color: rgba(0, 0, 0, 0.3);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .services-section > p {
