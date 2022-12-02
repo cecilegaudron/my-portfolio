@@ -110,12 +110,8 @@ nav a {
 .contact-button {
     text-align: center;
     text-transform: uppercase;
-    background-color: #fff;
-    color: brown;
-    border: none;
     padding: 2%;
     margin: auto;
-    border-radius: 5%;
 }
 
 input[type=text], input[type=email] {
