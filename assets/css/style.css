@@ -125,10 +125,26 @@ input[type=text], input[type=email] {
     margin: 2%;
 }
 
-#contact-ways > i {
-    font-size: 2rem;
-    display: inline-block;
+#contact-ways {
+    padding: 2%;
+}
 
+#contact-ways i {
+    font-size: 2rem;
+}
+
+#contact-ways > span {
+    text-align: center;
+}
+
+#contact-ways a {
+    text-decoration: none;
+    color: #000;
+}
+
+#contact-ways a:hover {
+    text-decoration: underline;
+    color: #fff;
 }
 
 /* Home page styles */
