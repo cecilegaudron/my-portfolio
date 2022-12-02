@@ -188,6 +188,7 @@ To maintain the center elements, I use the attributes flex-direction and display
     padding: 2%;
 }
 
+/* Code from the Love Running project. Attributes and values for the picture */
 .first-hp {
     width: 100%;
     height: 600px;
