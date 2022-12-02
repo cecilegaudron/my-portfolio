@@ -234,17 +234,22 @@ input[type=text], input[type=email] {
 }
 
 .button-section {
-    background-color: rgba(250, 55, 55, 0.6);
+    background-color: brown;
     width: 50%;
     margin: auto;
     padding: 5%;
-    border-radius: 10%;
-
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.button-section p {
-    text-align: center;
+.button-section a {
     color: #fff;
+    text-decoration: none;
+}
+
+.button-section a:hover {
+    color: #000;
+    text-decoration: underline;
 }
 
 /* Media Queries */
