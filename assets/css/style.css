@@ -208,20 +208,12 @@ To maintain the center elements, I use the attributes flex-direction and display
     overflow: hidden;
     margin: auto;
 }
-/* style for mobile
+
 .experiences {
     display: flex;
     flex-direction: column;
 }
-*/
 
-.experiences {
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 80%;
-}
 
 .second-hp .title-paragraph {
     padding-top: 5%;
@@ -274,9 +266,9 @@ Add a position absolute to the child div, add values for top and left, add an at
 
 .button-section {
     background-color: brown;
-    width: 50%;
+    width: 40%;
     margin: auto;
-    padding: 5%;
+    padding: 3%;
     text-transform: uppercase;
     text-align: center;
 }
@@ -309,13 +301,14 @@ Add a position absolute to the child div, add values for top and left, add an at
 
 /* For desk */
 @media only screen and (min-width: 992px) {
-/*
     .experiences {
         margin: auto;
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
     }
-*/
+
     #logo {
     width: 15%;
     }
