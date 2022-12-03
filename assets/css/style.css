@@ -50,7 +50,6 @@ footer a:hover {
 
 /* General styles for text */
 .title-paragraph {
-    text-transform: capitalize;
     color: #fff;
     font-size: 2rem;
     text-align: center;
@@ -104,9 +103,9 @@ nav a {
 
 
 #contact-ways {
-    margin: 2%;
+    margin: 1%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #form-div {
