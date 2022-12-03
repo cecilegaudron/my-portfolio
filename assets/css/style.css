@@ -298,7 +298,11 @@ Add a position absolute to the child div, add values for top and left, add an at
         width: 20%;
     }
 
-
+    .third-hp {
+        overflow: hidden;
+        height: 500px;
+        background-size: cover;
+    }
 
     .button-section {
         width: 25%;
