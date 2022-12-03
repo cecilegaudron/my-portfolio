@@ -273,15 +273,6 @@ Add a position absolute to the child div, add values for top and left, add an at
     text-align: center;
 }
 
-.button-section {
-    background-color: brown;
-    width: 40%;
-    margin: auto;
-    padding: 3%;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 .button-section a {
     color: #fff;
     text-decoration: none;
@@ -306,6 +297,19 @@ Add a position absolute to the child div, add values for top and left, add an at
     #logo {
         width: 20%;
     }
+
+    .third-hp {
+        overflow: hidden;
+        height: 400px;
+        background-size: cover;
+    }
+
+    .button-section {
+        width: 25%%;
+        margin: auto;
+        padding: 2%;
+    }
+
 }
 
 /* For desk */
