@@ -277,19 +277,30 @@ Add a position absolute to the child div, add values for top and left, add an at
 
 /* Media Queries */
 
-/* For mobiles */
+/* For large phones */
+@media only screen and (min-width: 576px) {
+    #logo {
+        width: 8%;
+    }
+}
 
+/* For tablets */
+@media only screen and (min-width: 768px) {
+    #logo {
+        width: 8%;
+    }
+}
 
 /* For desk */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
 
-.second-hp div {
+    .second-hp div {
     display: inline-block;
     width: 40%;
-}
+    }
 
-#logo {
+    #logo {
     width: 8%;
-}
+    }
 
 }
