@@ -208,10 +208,17 @@ To maintain the center elements, I use the attributes flex-direction and display
     overflow: hidden;
     margin: auto;
 }
-
+/* style for mobile
 .experiences {
     display: flex;
     flex-direction: column;
+}
+*/
+
+.experiences {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 .second-hp .title-paragraph {
@@ -227,7 +234,7 @@ To maintain the center elements, I use the attributes flex-direction and display
 
 .div-experiences {
     margin: auto;
-    width: 90%;
+    width: auto;
     padding: 6%;
 }
 
@@ -300,15 +307,19 @@ Add a position absolute to the child div, add values for top and left, add an at
 
 /* For desk */
 @media only screen and (min-width: 992px) {
-
+/*
     .experiences {
-        margin: 5%;
+        margin: auto;
         display: flex;
         flex-direction: row;
     }
-
+*/
     #logo {
     width: 15%;
+    }
+
+    .div-experiences {
+        padding: 3%;
     }
 
 }
