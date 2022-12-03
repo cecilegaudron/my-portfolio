@@ -135,7 +135,7 @@ To maintain the center elements, I use the attributes flex-direction and display
 }
 
 
-/* style for mobile 
+
 .contact-form {
     background-color: brown;
     color: #fff;
@@ -158,7 +158,7 @@ input[type=text], input[type=email] {
     padding: 2%;
     margin: 2%;
 }
-
+/* style for mobile 
 #contact-ways {
     margin: 2%;
     display: flex;
