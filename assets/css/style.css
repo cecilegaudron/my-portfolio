@@ -103,7 +103,7 @@ nav a {
 #contact-options {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+justify-content: space-between;
 }
 
 #contact-ways {
@@ -124,7 +124,7 @@ nav a {
 To maintain the center elements, I use the attributes flex-direction and display. These combinaisons come from w3schools.com */
 #contact-ways p {
     text-align: center;
-    margin: 4%;
+    margin: 5%;
 }
 
 #contact-ways a {
@@ -398,12 +398,6 @@ Add a position absolute to the child div, add values for top and left, add an at
         padding: 1%;
         margin: 1%;
         font-size: 1rem;
-    }
-
-    #contact-options {
-        display: flex;
-        flex-flow: wrap;
-        justify-content: space-between;
     }
 
 }
