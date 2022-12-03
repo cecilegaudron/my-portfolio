@@ -100,6 +100,42 @@ nav a {
 }
 
 /* Contact form */
+
+
+
+#contact-ways {
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+#form-div {
+    margin: 1%;
+}
+
+#contact-ways i {
+    font-size: 2rem;
+}
+
+/* I delete the span in this section, because the code is not correct according from validator.w3.org
+To maintain the center elements, I use the attributes flex-direction and display. These combinaisons come from w3schools.com */
+#contact-ways p {
+    text-align: center;
+    margin: 5%;
+}
+
+#contact-ways a {
+    text-decoration: none;
+    color: #000;
+}
+
+#contact-ways a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+
+/* style for mobile 
 .contact-form {
     background-color: brown;
     color: #fff;
@@ -153,6 +189,7 @@ To maintain the center elements, I use the attributes flex-direction and display
     text-decoration: underline;
     color: #fff;
 }
+/*
 
 /* Home page styles */
 
@@ -250,7 +287,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     margin: 0;
     padding: 2%;
     width: 90%;
-    height: auto%;
+    height: auto;
     text-align: justify;
     background-color: rgba(0, 0, 0, 0.3);
     top: 50%;
@@ -340,6 +377,24 @@ Add a position absolute to the child div, add values for top and left, add an at
         overflow: hidden;
         height: 400px;
         background-size: cover;
+    }
+
+    .contact-form {
+        padding: 1%;
+    }
+    
+    .contact-button {
+        padding: 1.5%;
+        margin: auto;
+        font-size: 1rem;
+    }
+    
+    input[type=text], input[type=email] {
+        height: 5%;
+        width: 40%;
+        padding: 1%;
+        margin: 1%;
+        font-size: 1rem;
     }
 
 }
