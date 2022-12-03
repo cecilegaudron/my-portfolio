@@ -225,6 +225,12 @@ To maintain the center elements, I use the attributes flex-direction and display
     list-style-position: inside;
 }
 
+.div-experiences {
+    margin: auto;
+    width: 90%;
+    padding: 6%;
+}
+
 
 /* Home page third section services */
 
