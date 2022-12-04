@@ -310,6 +310,19 @@ Add a position absolute to the child div, add values for top and left, add an at
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.second-services {
+    max-width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: 2%;
+    padding: 3%;
+    text-align: justify;
+}
+
+.second-services .title-section {
+    color: #000;
+}
+
 /* Media Queries */
 
 /* For large phones */
