@@ -212,13 +212,12 @@ To maintain the center elements, I use the attributes flex-direction and display
     padding: 3%;
 }
 
-
 .second-hp .title-paragraph {
     padding-top: 5%;
 }
 
 .second-hp ul {
-    text-align: center;
+    text-align: left;
     color: #fff;
     list-style-type: square;
     list-style-position: inside;
