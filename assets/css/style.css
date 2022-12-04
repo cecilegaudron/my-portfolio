@@ -303,6 +303,7 @@ Add a position absolute to the child div, add values for top and left, add an at
         width: 20%;
     }
 
+    /* HP */
     .third-hp {
         overflow: hidden;
         height: 500px;
@@ -333,7 +334,19 @@ Add a position absolute to the child div, add values for top and left, add an at
     #logo {
         width: 15%;
     }
+
+    /* hp first section */
+    .first-hp {
+        background-size: cover;
+        height: 700px;
+    }
+
+    /* footer */
+    footer {
+        padding: 2%;
+    }
     
+    /* hp second section EXPERIENCES */
     .experiences {
         margin: auto;
         display: flex;
@@ -351,6 +364,7 @@ Add a position absolute to the child div, add values for top and left, add an at
         padding: 1%;
     }
 
+    /* hp third section SERVICES */
     .button-section {
         width: 15%;
         margin: auto;
@@ -362,6 +376,8 @@ Add a position absolute to the child div, add values for top and left, add an at
         height: 400px;
         background-size: cover;
     }
+
+    /* hp contact section */
 
     .contact-form {
         padding: 1%;
@@ -390,10 +406,6 @@ Add a position absolute to the child div, add values for top and left, add an at
         display: flex;
         flex-flow: wrap;
         justify-content: space-between;
-    }
-
-    footer {
-        padding: 2%;
     }
 
 }
