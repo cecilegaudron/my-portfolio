@@ -189,12 +189,15 @@ To maintain the center elements, I use the attributes flex-direction and display
 }
 
 /* Code from the Love Running project. Attributes and values for the picture */
-.first-hp {
+.first-section {
     width: 100%;
     height: 600px;
-    background: url('../images/bunker-holga.jpg') no-repeat center center;
     overflow: hidden;
     position: relative;
+}
+
+.first-hp {
+    background: url('../images/bunker-holga.jpg') no-repeat center center;
 }
 
 
@@ -291,6 +294,12 @@ Add a position absolute to the child div, add values for top and left, add an at
 .button-section a:hover {
     color: #000;
     text-decoration: underline;
+}
+
+/* Services page */
+.first-hp {
+    background: url('../images/siegessaule.jpg') no-repeat center center;
+    height: auto;
 }
 
 /* Media Queries */
