@@ -128,24 +128,27 @@ input[type=text], input[type=email] {
 }
 
 #contact-ways {
-    margin: 1%;
-}
-
-#contact-ways i {
-    font-size: 2rem;
+    margin: 2%;
+    padding: 4%;
 }
 
 /* I delete the span in this section, because the code is not correct according from validator.w3.org
 To maintain the center elements, I use the attributes flex-direction and display. These combinaisons come from w3schools.com */
-#contact-ways p {
-    text-align: center;
-    margin: 5%;
-}
 
 #contact-options {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    text-align: center;
+    margin: 2%;
+}
+
+#contact-options p {
+    padding: 4%;
+}
+
+#contact-options i {
+    font-size: 2rem;
 }
 
 /* Home page styles */
@@ -313,6 +316,12 @@ Add a position absolute to the child div, add values for top and left, add an at
         padding: 2%;
     }
 
+    #contact-options {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
+    }
+
 }
 
 /* For desk */
@@ -376,6 +385,10 @@ Add a position absolute to the child div, add values for top and left, add an at
         display: flex;
         flex-flow: wrap;
         justify-content: space-between;
+    }
+
+    footer {
+        padding: 2%;
     }
 
 }
