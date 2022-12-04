@@ -304,6 +304,19 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
 
     /* HP */
+
+    .first-hp {
+        background-size: cover;
+        height: 700px;
+    }
+
+    #title-block {
+        width: 40%;
+        height: auto;
+        left: 50%;
+        top: 55%;
+    }
+
     .third-hp {
         overflow: hidden;
         height: 500px;
@@ -343,14 +356,15 @@ Add a position absolute to the child div, add values for top and left, add an at
     /* HP first section */
     .first-hp {
         background-size: cover;
+        background-position: top center;
         height: 700px;
     }
 
     #title-block {
-        width: 40%;
+        width: 20%;
         height: auto;
-        left: 50%;
-        top: 55%;
+        left: 70%;
+        top: 50%;
     }
     
     /* HP second section EXPERIENCES */
