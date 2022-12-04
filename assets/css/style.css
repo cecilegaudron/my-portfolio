@@ -331,11 +331,19 @@ Add a position absolute to the child div, add values for top and left, add an at
 }
 
 .div-services {
-    width: 80%;
+    width: auto;
     height: auto;
-    background-color: #fff;
     margin: auto;
-    padding: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+.different-services {
+    width: 80%;
+    margin: 2%;
+    padding: 4%;
+    border: #FFF 0.1rem solid;
+    border-radius: 5%;
 }
 
 /* Media Queries */
