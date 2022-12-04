@@ -100,45 +100,6 @@ nav a {
 
 /* Contact form */
 
-#contact-options {
-    display: flex;
-    flex-flow: wrap;
-justify-content: space-between;
-}
-
-#contact-ways {
-    margin: 1%;
-    display: flex;
-    flex-direction: row;
-}
-
-#form-div {
-    margin: 1%;
-}
-
-#contact-ways i {
-    font-size: 2rem;
-}
-
-/* I delete the span in this section, because the code is not correct according from validator.w3.org
-To maintain the center elements, I use the attributes flex-direction and display. These combinaisons come from w3schools.com */
-#contact-ways p {
-    text-align: center;
-    margin: 5%;
-}
-
-#contact-ways a {
-    text-decoration: none;
-    color: #000;
-}
-
-#contact-ways a:hover {
-    text-decoration: underline;
-    color: #fff;
-}
-
-
-
 .contact-form {
     background-color: brown;
     color: #fff;
@@ -146,6 +107,10 @@ To maintain the center elements, I use the attributes flex-direction and display
     overflow: hidden;
     max-width: 100%;
     padding: 4%;
+}
+
+#form-div {
+    margin: 2%;
 }
 
 .contact-button {
@@ -161,15 +126,9 @@ input[type=text], input[type=email] {
     padding: 2%;
     margin: 2%;
 }
-/* style for mobile 
-#contact-ways {
-    margin: 2%;
-    display: flex;
-    flex-direction: column;
-}
 
-#form-div {
-    margin: 2%;
+#contact-ways {
+    margin: 1%;
 }
 
 #contact-ways i {
@@ -183,16 +142,11 @@ To maintain the center elements, I use the attributes flex-direction and display
     margin: 5%;
 }
 
-#contact-ways a {
-    text-decoration: none;
-    color: #000;
+#contact-options {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
 }
-
-#contact-ways a:hover {
-    text-decoration: underline;
-    color: #fff;
-}
-/*
 
 /* Home page styles */
 
@@ -398,6 +352,16 @@ Add a position absolute to the child div, add values for top and left, add an at
         padding: 1%;
         margin: 1%;
         font-size: 1rem;
+    }
+
+    #contact-ways {
+        margin: 1%;
+    }
+
+    #contact-options {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-between;
     }
 
 }
