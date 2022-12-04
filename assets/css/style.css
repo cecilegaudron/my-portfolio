@@ -325,9 +325,9 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
 
     .button-section {
-        width: 20%;
+        width: 10%;
         margin: auto;
-        padding: 2%;
+        padding: 1.2%;
     }
 
     .third-hp {
@@ -341,7 +341,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
     
     .contact-button {
-        padding: 1.5%;
+        padding: 1.2%;
         margin: auto;
         font-size: 1rem;
     }
