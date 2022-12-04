@@ -208,6 +208,10 @@ To maintain the center elements, I use the attributes flex-direction and display
     flex-direction: column;
 }
 
+.experiences div {
+    padding: 3%;
+}
+
 
 .second-hp .title-paragraph {
     padding-top: 5%;
@@ -224,6 +228,12 @@ To maintain the center elements, I use the attributes flex-direction and display
     margin: auto;
     width: auto;
     padding: 6%;
+}
+
+.div-experiences p {
+    padding: 3%;
+    color: #fff;
+    text-align: justify;
 }
 
 
@@ -318,10 +328,15 @@ Add a position absolute to the child div, add values for top and left, add an at
         flex-direction: row;
         justify-content: space-around;
         width: 80%;
+        padding: 2%;
     }
 
     .div-experiences {
-        padding: 3%;
+        padding: 2%;
+    }
+
+    .div-experiences p {
+        padding: 1%;
     }
 
     .button-section {
