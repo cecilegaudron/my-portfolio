@@ -297,9 +297,17 @@ Add a position absolute to the child div, add values for top and left, add an at
 }
 
 /* Services page */
-.first-hp {
+.first-services {
     background: url('../images/siegessaule.jpg') no-repeat center center;
-    height: auto;
+    background-size: cover;
+    background-position: right;
+}
+
+.first-services #title-block {
+    width: 50%;
+    left: 44%;
+    top: 65%;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* Media Queries */
