@@ -339,7 +339,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
 
     .button-section {
-        width: 10%;
+        width: 15%;
         margin: auto;
         padding: 1.2%;
     }
