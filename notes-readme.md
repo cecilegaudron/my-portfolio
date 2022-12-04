@@ -9,4 +9,4 @@ https://www.w3schools.com/howto/howto_css_center-vertical.asp
 Fixed errors
 Error with the h2 child of spans. I deleted the span and I replace them by a div.
 
-I have a horizontaly scroolbar, all my sections are with "width:100%". I add the attribute "max-width:100%" to my nav.
+I have a horizontaly scroolbar, all my sections are with "width:100%". I add the attribute "max-width:100%" to the nav and footer. 

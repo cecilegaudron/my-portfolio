@@ -28,6 +28,7 @@ section {
 
 footer {
     background-color: black;
+    max-width: 100%;
     color: #fff;
     overflow: hidden;
     margin: auto;
@@ -64,6 +65,10 @@ footer a:hover {
 }
 
 /* Header with logo and navigation */
+header {
+    width: 100%;
+}
+
 #logo {
     background-color: #fff;
     margin: auto;
@@ -73,7 +78,7 @@ footer a:hover {
 nav {
     background-color: #fff;
     padding: 2px;
-    width: 100%;
+    max-width: 100%;
 }
 
 nav ul {
@@ -300,7 +305,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 /* For tablets */
 @media only screen and (min-width: 768px) {
     #logo {
-        width: 20%;
+        width: 15%;
     }
 
     /* HP */
@@ -345,7 +350,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 /* For desk */
 @media only screen and (min-width: 992px) {
     #logo {
-        width: 15%;
+        width: 12%;
     }
 
     /* footer */
