@@ -137,10 +137,9 @@ To maintain the center elements, I use the attributes flex-direction and display
 
 #contact-options {
     display: flex;
-    flex-flow: wrap;
+    flex-direction: column;
     justify-content: center;
     text-align: center;
-    margin: 2%;
 }
 
 #contact-options p {
@@ -322,6 +321,11 @@ Add a position absolute to the child div, add values for top and left, add an at
         justify-content: space-between;
     }
 
+    #contact-ways {
+        margin:1%;
+        padding: 1%;
+    }
+
 }
 
 /* For desk */
@@ -379,6 +383,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 
     #contact-ways {
         margin: 1%;
+        padding: 1%;
     }
 
     #contact-options {
