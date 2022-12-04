@@ -323,6 +323,21 @@ Add a position absolute to the child div, add values for top and left, add an at
     color: #000;
 }
 
+.third-services {
+    background-color: brown;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.div-services {
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+    margin: auto;
+    padding: 3%;
+}
+
 /* Media Queries */
 
 /* For large phones */
