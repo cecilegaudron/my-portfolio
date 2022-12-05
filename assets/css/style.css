@@ -423,6 +423,20 @@ Add a position absolute to the child div, add values for top and left, add an at
     font-size: 4rem;
 }
 
+.about-hobbies .title-section {
+    padding-top: 8%;
+}
+
+.about-spotify {
+    margin: auto;
+    padding: 4%;
+}
+
+.about-spotify iframe {
+    margin: auto;
+    display: block;
+}
+
 /* Media Queries */
 
 /* For large phones */
