@@ -389,6 +389,40 @@ Add a position absolute to the child div, add values for top and left, add an at
     padding: 2%;
 }
 
+.about-hobbies .title-section {
+    color: brown;
+} 
+
+.about-hobbies {
+    margin: auto;
+    padding: 4%;
+}
+
+#profile-picture {
+    margin: auto;
+}
+
+#profile-picture img {
+    width: 50%;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.different-hobbies {
+    margin: auto;
+    text-align: center;
+}
+
+.hobbies {
+    padding: 6%
+    ;
+}
+
+.hobbies i {
+    font-size: 4rem;
+}
+
 /* Media Queries */
 
 /* For large phones */
