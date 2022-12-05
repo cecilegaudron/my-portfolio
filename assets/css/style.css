@@ -99,6 +99,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: brown;
+    text-decoration: none;
+}
+
 .active {
     border-bottom: 1px solid #000;
 }
@@ -305,9 +310,9 @@ Add a position absolute to the child div, add values for top and left, add an at
 
 .first-services #title-block {
     width: 50%;
-    left: 44%;
-    top: 65%;
-    background-color: rgba(0, 0, 0, 0.5);
+    left: 40%;
+    top: 60%;
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .second-services {
@@ -365,6 +370,13 @@ Add a position absolute to the child div, add values for top and left, add an at
     background: url('../images/swing.jpg') no-repeat center center;
     background-size: cover;
     background-position: right;
+}
+
+.about-title #title-block {
+    width: 50%;
+    left: 44%;
+    top: 65%;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .about-txt {
