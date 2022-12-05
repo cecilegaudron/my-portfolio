@@ -360,6 +360,13 @@ Add a position absolute to the child div, add values for top and left, add an at
     text-align: left;
 }
 
+/* About page */
+.first-about {
+    background: url('../images/swing.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: right;
+}
+
 /* Media Queries */
 
 /* For large phones */
