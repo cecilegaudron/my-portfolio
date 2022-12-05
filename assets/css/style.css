@@ -305,7 +305,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 .services-title {
     background: url('../images/siegessaule.jpg') no-repeat center center;
     background-size: cover;
-    background-position: right;
+    background-position: top;
 }
 
 .services-title #title-block {
@@ -339,9 +339,6 @@ Add a position absolute to the child div, add values for top and left, add an at
 }
 
 .div-services {
-    width: auto;
-    height: auto;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -349,7 +346,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 
 .different-services {
     width: 60%;
-    margin: auto;
+    margin: 3%;
     padding: 5%;
     border: #FFF 0.1rem solid;
     background-color: #FFF;
