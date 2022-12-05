@@ -367,7 +367,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     background-position: right;
 }
 
-.third-about {
+.about-skills {
     margin: auto;
     padding: 6%;
     background-color: brown;
