@@ -367,6 +367,22 @@ Add a position absolute to the child div, add values for top and left, add an at
     background-position: right;
 }
 
+.third-about {
+    margin: auto;
+    padding: 6%;
+    background-color: brown;
+}
+
+.different-skills {
+    margin: auto;
+    padding: 6%;
+}
+
+.different-skills span {
+    color: #FFF;
+    text-align: center;
+}
+
 /* Media Queries */
 
 /* For large phones */
