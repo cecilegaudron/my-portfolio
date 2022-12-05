@@ -312,7 +312,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     width: 50%;
     left: 40%;
     top: 60%;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .services-txt {
@@ -336,6 +336,16 @@ Add a position absolute to the child div, add values for top and left, add an at
     max-width: 100%;
     height: auto;
     margin: auto;
+    padding: 5%;
+}
+
+.services-skills .sub-title-block {
+    text-align: center;
+    padding-bottom: 8%;
+}
+
+.services-skills h2 {
+    line-height: 1.3rem;
 }
 
 .div-services {
