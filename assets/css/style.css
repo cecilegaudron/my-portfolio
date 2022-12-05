@@ -302,20 +302,20 @@ Add a position absolute to the child div, add values for top and left, add an at
 }
 
 /* Services page */
-.first-services {
+.services-title {
     background: url('../images/siegessaule.jpg') no-repeat center center;
     background-size: cover;
     background-position: right;
 }
 
-.first-services #title-block {
+.services-title #title-block {
     width: 50%;
     left: 40%;
     top: 60%;
     background-color: rgba(0, 0, 0, 0.2);
 }
 
-.second-services {
+.services-txt {
     max-width: 100%;
     height: auto;
     background-color: #fff;
@@ -324,14 +324,14 @@ Add a position absolute to the child div, add values for top and left, add an at
     text-align: justify;
 }
 
-.second-services .title-section {
+.services-txt .title-section {
     color: #000;
 }
 
 .third-services .title-section {
     margin: 5%;
 }
-.third-services {
+.services-skills {
     background-color: brown;
     max-width: 100%;
     height: auto;
