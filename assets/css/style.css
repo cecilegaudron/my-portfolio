@@ -361,10 +361,20 @@ Add a position absolute to the child div, add values for top and left, add an at
 }
 
 /* About page */
-.first-about {
+.about-title {
     background: url('../images/swing.jpg') no-repeat center center;
     background-size: cover;
     background-position: right;
+}
+
+.about-txt {
+    margin: auto;
+    padding: 6%;
+    text-align: justify;
+}
+
+.about-txt .title-section {
+    color: brown;
 }
 
 .about-skills {
