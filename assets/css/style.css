@@ -476,6 +476,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 .about-spotify iframe {
     margin: auto;
     display: block;
+    border-radius: 12px;
 }
 
 /* MEDIA QUERIES */
@@ -484,6 +485,10 @@ Add a position absolute to the child div, add values for top and left, add an at
 @media only screen and (min-width: 576px) {
     #logo {
         width: 20%;
+    }
+
+    #profile-picture img {
+        width: 30%;
     }
 }
 
@@ -581,6 +586,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 
     .about-spotify iframe {
     width: 40%;
+    border-radius: 40px;
 }
 
 }
@@ -697,16 +703,16 @@ Add a position absolute to the child div, add values for top and left, add an at
         line-height: 2.2rem;
     }
 
-    .different-hobbies {
-        padding: 2%;
-    }
-
     .about-hobbies .title-section {
         padding-top: 3%;
     }
 
     .different-hobbies div {
         width: 80%
+    }
+
+    .about-spotify {
+        padding: 1%;
     }
 
 }
