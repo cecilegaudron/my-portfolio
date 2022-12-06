@@ -611,7 +611,6 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
 
     .services-skills .sub-title-block {
-        text-align: center;
         padding-bottom: 4%;
     }
 
@@ -744,6 +743,39 @@ Add a position absolute to the child div, add values for top and left, add an at
 
     .about-spotify {
         padding: 1%;
+    }
+
+    /* SERVICES PAGE */
+    .services-title #title-block {
+        width: 25%;
+        left: 65%
+    }
+
+    .services-txt {
+        padding: 3%;
+    }
+
+    .services-skills {
+        padding-top: 2%;
+    }
+
+    .div-services {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .different-services {
+        padding: 2%;
+        line-height: 1.5rem
+    }
+        
+    .different-services .title-paragraph {
+            padding-bottom: 8%;
+            padding-top: 4%;
+    }
+
+    .services-skills .sub-title-block {
+        padding-bottom: 2%;
     }
 
 }
