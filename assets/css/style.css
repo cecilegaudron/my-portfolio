@@ -322,8 +322,8 @@ Add a position absolute to the child div, add values for top and left, add an at
     max-width: 100%;
     height: auto;
     background-color: #fff;
-    margin: 3%;
-    padding: 4%;
+    margin: auto;
+    padding: 6%;
     text-align: justify;
 }
 
@@ -362,7 +362,6 @@ Add a position absolute to the child div, add values for top and left, add an at
     width: 60%;
     margin: 3%;
     padding: 5%;
-    border: #FFF 0.1rem solid;
     background-color: #FFF;
     line-height: 1.5rem;
 }
@@ -589,6 +588,38 @@ Add a position absolute to the child div, add values for top and left, add an at
     border-radius: 40px;
 }
 
+/* SERVICES PAGE */
+    .service-title #title-block {
+        width: 35%;
+        left: 55%;
+    }
+
+    .services-txt {
+        padding: 4%;
+    }
+
+    .services-skills {
+        padding-top: 4%;
+    }
+
+    .services-skills .title-section {
+        margin: 3%;
+    }
+
+    .services-skills h2 {
+        line-height: 0.2rem;
+    }
+
+    .services-skills .sub-title-block {
+        text-align: center;
+        padding-bottom: 4%;
+    }
+
+    .different-services {
+        width: 50%;
+        margin: 2%;
+        padding: 3%;
+    }
 }
 
 /* FOR DESK */
