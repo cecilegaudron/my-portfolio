@@ -645,4 +645,15 @@ Add a position absolute to the child div, add values for top and left, add an at
         justify-content: center;
         line-height: 2rem;
     }
+
+    .about-txt {
+        padding: 3%;
+    }
+
+    .about-title #title-block {
+        width: 25%;
+        left: 65%;
+        top:60%;
+
+    }
 }
