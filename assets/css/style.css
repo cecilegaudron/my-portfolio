@@ -631,7 +631,18 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
 
     .about-spotify iframe {
-        width: 40%
-        };
+        width: 40%;
+    }
     
+    .about-skills {
+        padding: 2%;
+    }
+
+    .different-skills {
+        padding: 2%;
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+        line-height: 2rem;
+    }
 }
