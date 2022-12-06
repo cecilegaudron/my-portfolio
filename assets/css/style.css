@@ -301,7 +301,9 @@ Add a position absolute to the child div, add values for top and left, add an at
     text-decoration: underline;
 }
 
-/* Services page */
+/* SERVICES PAGE */
+
+/* picture and title section */
 .services-title {
     background: url('../images/siegessaule.jpg') no-repeat center center;
     background-size: cover;
@@ -315,6 +317,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* text section */
 .services-txt {
     max-width: 100%;
     height: auto;
@@ -328,7 +331,8 @@ Add a position absolute to the child div, add values for top and left, add an at
     color: #000;
 }
 
-.third-services .title-section {
+/* services skills section */
+.services-skills .title-section {
     margin: 5%;
 }
 .services-skills {
@@ -374,13 +378,15 @@ Add a position absolute to the child div, add values for top and left, add an at
     text-align: left;
 }
 
-/* About page */
+/* ABOUT PAGE */
+
+/* picture and title section */
 .about-title {
     background: url('../images/swing.jpg') no-repeat center center;
     background-size: cover;
     background-position: right;
 }
-
+    
 .about-title #title-block {
     width: 50%;
     left: 44%;
@@ -388,6 +394,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* background section */
 .about-txt {
     margin: auto;
     padding: 6%;
@@ -398,6 +405,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     color: brown;
 }
 
+/* skills section */
 .about-skills {
     margin: auto;
     padding: 6%;
@@ -420,6 +428,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     padding: 2%;
 }
 
+/* picture and hobbies section */
 .about-hobbies .title-section {
     color: brown;
 } 
@@ -457,7 +466,8 @@ Add a position absolute to the child div, add values for top and left, add an at
 .about-hobbies .title-section {
     padding-top: 8%;
 }
-
+    
+/* spotify reader */
 .about-spotify {
     margin: auto;
     padding: 4%;
@@ -468,7 +478,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     display: block;
 }
 
-/* Media Queries */
+/* MEDIA QUERIES */
 
 /* For large phones */
 @media only screen and (min-width: 576px) {
@@ -483,7 +493,7 @@ Add a position absolute to the child div, add values for top and left, add an at
         width: 15%;
     }
 
-    /* HP */
+    /* Home Page */
 
     .first-hp {
         background-size: cover;
@@ -522,7 +532,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 
 }
 
-/* For desk */
+/* FOR DESK */
 @media only screen and (min-width: 992px) {
     #logo {
         width: 12%;
@@ -609,7 +619,23 @@ Add a position absolute to the child div, add values for top and left, add an at
         justify-content: space-between;
     }
 
-    /* ABOUT page */
+    /* ABOUT PAGE */
+
+    /* picture and title section */
+
+
+    /* background section */
+
+
+    /* skills section /*
+
+    /* picture and hobbies section */
+
+
+
+    /* spotify reader */
+
+
     #profile-picture img {
         width: 20%;
     }
@@ -624,6 +650,10 @@ Add a position absolute to the child div, add values for top and left, add an at
         display: flex;
         flex-direction: row;
         justify-content: center;
+    }
+
+    .about-hobbies .title-section {
+        padding-top: 3%;
     }
 
     .different-hobbies div {
@@ -651,9 +681,9 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
 
     .about-title #title-block {
-        width: 25%;
-        left: 65%;
+        width: 20%;
+        left: 70%;
         top:60%;
-
     }
+
 }
