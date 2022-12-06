@@ -607,7 +607,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
 
     .services-skills h2 {
-        line-height: 0.2rem;
+        line-height: 2rem;
     }
 
     .services-skills .sub-title-block {
@@ -761,7 +761,7 @@ Add a position absolute to the child div, add values for top and left, add an at
 
     .div-services {
         flex-direction: row;
-        justify-content: center;
+        align-items: normal;
     }
 
     .different-services {
