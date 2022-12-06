@@ -1,108 +1,117 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Love Running
+My portfolio is a site dedicated to promoting my skills to future employers or clients. I detail my experience in the communication field and my future technical skills as a Full Stack Software Developer. It is possible to contact me via a contact form or via other ways (email and phone).
 
-Welcome cecilegaudron,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+My portfolio has three pages: Home Page, Services, About
 
-## Gitpod Reminders
+The home page allows the Internet users to have a general vision of my work and my skills. It is divided into 4 parts.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+- __My Experiences Section__
+The user can quickly get acquainted with my knowledge, listed in two parts, web design and digital communication strategy.
 
-`python3 -m http.server`
+- __Services__
+This is a section with a text explaining why it is essential to define a communication strategy when creating a website. This text aims to inform the user on the important things to take into account when creating his website.
 
-A blue button should appear to click: _Make Public_,
+- __Contact Me__
+This section is accessible from the navigation bar on the different pages of my portfolio.
 
-Another blue button should appear to click: _Open Browser_.
+- __The Footer__
+The footer of my portfolio lists my copyright as well as the year of update of the website. The user can also click on one of the two icons before going to my LinkedIn or Instagram account.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+![Fotter](/assets/screenshots/footer.png)
 
-A blue button should appear to click: _Make Public_,
+- __Services Page__
+This is a page that lists what I can provide to a client. This page can replace an information brochure.
 
-Another blue button should appear to click: _Open Browser_.
+- __§__
+This section aims to convince the user that it is important to take care of his communication. And therefore that he should call on me! I explain why it is essential to have a graphic charter, a website, social networks in order to communicate better with its target. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __What I can do for you__
+In this section, like a catalog, I detail the different services I offer, in terms of website creation, visual identity, communication consulting and other important features.
 
-To log into the Heroku toolbelt CLI:
+- __About Page__
+Il s’agit d’une page où je parle plus précisement de moi.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __My Background__
+This section briefly lists the Experiences part of my resume. I have written here how long I have been working in this field and what has been my path.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- __My Skills__
+Here, I list my skills and my area of expertise in each of them. 
+This section will be enriched in the future with my new skills acquired during the training.
+A portrait allows you to get to know me before discovering some of my hobbies and a playlist of music that I like.
+This section allows to create a link with the user. The latter may or may not have the feeling to want to work with me.
 
-------
+### Existing Features
 
-## Release History
+- __Navigation Bar__
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The navigation bar is present on all pages, in a fixed way, in order to facilitate the navigation through the website. When you scroll on a page to view the content, the navigation bar remains fixed at the top of the screen. 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Nav Bar](/assets/screenshots/header.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __Contact Section__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The contact form allows you to contact me directly via the website without having to go to your email account. You just have to fill in your name, your email and the content of your message before clicking on the send button. The different fields are required to make sure that the information is correctly filled in. If it is not the case, the message cannot be sent.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- __Spotify Player__
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+The music player does not launch automatically when the user arrives on the page. It is up to the user to launch or not the player, according to his wishes. It is possible to open the playlist directly on Spotify in order to consult the titles on the platform.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Spotify Player](/assets/screenshots/spotify-reader.png)
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- __Background Images__
+I made the choice to display my top page photos in background directly in the style sheet. I made this choice because I really liked the transparent insert with the title on the photo of the Love Running project. But I didn't know how to achieve this effect. So I copied the css code. Moreover, these photos are not essential to the good understanding of the site, so it is not too serious if they do not have an "alt" attribute. They do not give additional information, they are purely decorative. 
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Features Left to Implement
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+I would like to continue to enrich this portfolio, first of all with the future skills I will acquire during the training, but also by posting or putting links to my future projects and work.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Testing
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+I tried a lot of things when making this portfolio. Many attributes but also values were not completely clear to me. I tested several options and check if it worked correctly or not. I was very inspired by the courses and examples of the w3schools.com website.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+When validating my html code by Validator Testing, I have errors with the h2 child of spans. I deleted the span and I replace them by a div.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The site, its different pages and sections are adapted to different screen sizes. Two points were created with the help of @media 768px for tablets and 992px for screens. I decided to make a third point for extra small devices (below 576px) because my logo doesn't display well with such a small size.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+I have encountered a problem with the blocks of the Services page. Thanks to the "align-items: center" property, the blocks are centered by default. In tablet view, it works too. But in desktop view, the blocks are not the same size and it's not pretty. After several unsuccessful attempts, the value "align-items : normal" will fix things.
 
-------
+![Align Items](/assets/screenshots/align-items.png)
 
-## FAQ about the uptime script
+I have a horizontaly scroolbar, all my sections are with "width:100%". I add the attribute "max-width:100%" to the nav and footer. 
 
-**Why have you added this script?**
+### Validator Testing
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- HTML
+No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/)
+- CSS
+No errors were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
 
-**How will this affect me?**
+### Unfixed Bugs
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+In the About page, in desktop view and only in this view, I have a problem with a span tag with text that is displayed on two lines. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![Skills line](/assets/screenshots/skills-line.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Deployment
 
-**So….?**
+- The website has been deployed on GitHub pages. The steps of the deployment are as follows:
+    - On the project on GitHub, go to Settings
+    - And then on GitHub Pages. Select the "Main" branch and save the settings.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+The site is live here : https://cecilegaudron.github.io/my-portfolio/
 
-**Can I opt out?**
+## Credits
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Content
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+- The icons in the footer and the About page come from [Font Awesome](https://fontawesome.com/)
+- The instructions and the code to display and position the transparent color blocks on the images at the top of the pages come from the Love Running Project
+- The instructions "how to center vertically and horizontaly" come from [W3schools.com](https://www.w3schools.com/) 
+- To maintain the center elements on different views, like in About page, Services page and contact ways, I use the attributes flex-direction and display. These combinaisons come from [W3schools.com](https://www.w3schools.com/)
 
-**Anything more?**
+### Media
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+All pictures are from me.

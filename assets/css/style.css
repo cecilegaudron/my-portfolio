@@ -25,7 +25,6 @@ section {
 
 
 /* footer */
-
 footer {
     background-color: black;
     max-width: 100%;
@@ -142,9 +141,6 @@ input[type=text], input[type=email] {
     padding: 4%;
 }
 
-/* I delete the span in this section, because the code is not correct according from validator.w3.org
-To maintain the center elements, I use the attributes flex-direction and display. These combinaisons come from w3schools.com */
-
 #contact-options {
     display: flex;
     flex-direction: column;
@@ -209,7 +205,6 @@ To maintain the center elements, I use the attributes flex-direction and display
 /* Home page second section w txt */
 
 .second-hp {
-    /*background: url('../images/leaf.jpg') no-repeat;*/
     width: 100%;
     height: auto;
     background-color: brown;
@@ -253,9 +248,6 @@ To maintain the center elements, I use the attributes flex-direction and display
 
 /* Home page third section services */
 
-/* to center my background-color on the picture, I use the code "how to center vertically and horizontaly" from W3schools.com 
-Add a position relative to the section parent
-Add a position absolute to the child div, add values for top and left, add an attribute transform with values, put margin to 0 */
 .third-hp {
     width: 100%;
     background: url('../images/church-holga.jpg') no-repeat;
@@ -775,7 +767,7 @@ Add a position absolute to the child div, add values for top and left, add an at
     }
 
     .services-skills .sub-title-block {
-        padding-bottom: 2%;
+        padding: 1%;
     }
 
 }
