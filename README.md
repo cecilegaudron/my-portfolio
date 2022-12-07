@@ -1,6 +1,16 @@
-# Love Running
+# My Portfolio
 My portfolio is a site dedicated to promoting my skills to future employers or clients. I detail my experience in the communication field and my future technical skills as a Full Stack Software Developer. It is possible to contact me via a contact form or via other ways (email and phone).
 
+![Responsive Website](/assets/screenshots/responsive-website.png)
+
+## Wireframes
+From the beginning, I had a clear idea of what I wanted on my website and how to organize it.
+
+![Wireframe Home Page 1](/assets/screenshots/home-page1.jpg)
+
+![Wireframe Home Page 2](/assets/screenshots/home-page2.jpg)
+
+![Wireframe Home Page 3](/assets/screenshots/home-page3.jpg)
 
 ## Features
 
@@ -20,7 +30,7 @@ This section is accessible from the navigation bar on the different pages of my 
 - __The Footer__
 The footer of my portfolio lists my copyright as well as the year of update of the website. The user can also click on one of the two icons before going to my LinkedIn or Instagram account.
 
-![Fotter](/assets/screenshots/footer.png)
+![Footer](/assets/screenshots/footer.png)
 
 - __Services Page__
 This is a page that lists what I can provide to a client. This page can replace an information brochure.
