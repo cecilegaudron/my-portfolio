@@ -73,7 +73,7 @@ The music player does not launch automatically when the user arrives on the page
 ![Spotify Player](/assets/screenshots/spotify-reader.png)
 
 - __Background Images__
-I made the choice to display my top page photos in background directly in the style sheet. I made this choice because I really liked the transparent insert with the title on the photo of the Love Running project. But I didn't know how to achieve this effect. So I copied the css code. Moreover, these photos are not essential to the good understanding of the site, so it is not too serious if they do not have an "alt" attribute. They do not give additional information, they are purely decorative. 
+I made the choice to display my top page photos in background directly in the style sheet. I made this choice because I really liked the transparent insert with the title on the photo of the Love Running project. So I copied the css code. Moreover, these photos are not essential to the good understanding of the site, so it is not too bad if they do not have an "alt" attribute. They do not give additional information, they are purely decorative. 
 
 ### Features Left to Implement
 

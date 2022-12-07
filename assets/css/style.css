@@ -602,12 +602,16 @@ input[type=text], input[type=email], textarea {
         padding: 4%;
     }
 
-    .services-txt a {
+   .internal-link a {
         color: brown;
         font-weight: bold;
     }
 
-    .services-txt a:hover {
+    .internal-link a:visited {
+        color: brown;
+        font-weight: bold;
+    }
+    .internal-link a:hover {
         color: #000;
         font-weight: bold;
     }
