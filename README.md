@@ -123,8 +123,8 @@ The site is live here : https://cecilegaudron.github.io/my-portfolio/
 
 - The icons in the footer and the About page come from [Font Awesome](https://fontawesome.com/)
 - The instructions and the code to display and position the transparent color blocks on the images at the top of the pages come from the Love Running Project
-- The instructions "how to center vertically and horizontaly" come from [W3schools.com](https://www.w3schools.com/) 
-- To maintain the center elements on different views, like in About page, Services page and contact ways, I use the attributes flex-direction and display. These combinaisons come from [W3schools.com](https://www.w3schools.com/)
+- The instructions "how to center vertically and horizontaly" and "How to add a favicon" come from [W3schools.com](https://www.w3schools.com/) 
+- To maintain the center elements on different views, like in About page, Services page and contact ways, I use the flexblock attributes flex-direction and display. These combinaisons come from [W3schools.com](https://www.w3schools.com/)
 
 ### Media
 
