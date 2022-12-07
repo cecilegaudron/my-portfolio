@@ -412,7 +412,8 @@ input[type=text], input[type=email] {
 
 .different-skills span {
     color: #FFF;
-    padding: 6%;
+    padding: 2%;
+    display: inline-block;
 }
 
 .different-skills div {
