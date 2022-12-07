@@ -348,6 +348,7 @@ input[type=text], input[type=email], textarea {
 
 .services-skills h2 {
     line-height: 1.3rem;
+    margin: 1% !important;
 }
 
 .div-services {
@@ -524,7 +525,6 @@ input[type=text], input[type=email], textarea {
     #contact-options {
         display: flex;
         flex-flow: wrap;
-        justify-content: space-between;
     }
 
     #contact-ways {
@@ -690,7 +690,6 @@ input[type=text], input[type=email], textarea {
     }
 
     /* Home Page section Contact */
-
     .contact-form {
         padding: 1%;
     }
