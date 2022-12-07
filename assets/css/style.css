@@ -156,6 +156,15 @@ input[type=text], input[type=email] {
     font-size: 2rem;
 }
 
+#contact-options a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+#contact-options a:hover {
+    color: #000;
+}
+
 /* Home page styles */
 
 /* Home page first section w picture and title */
