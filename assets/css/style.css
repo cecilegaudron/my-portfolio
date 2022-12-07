@@ -602,6 +602,16 @@ input[type=text], input[type=email], textarea {
         padding: 4%;
     }
 
+    .services-txt a {
+        color: brown;
+        font-weight: bold;
+    }
+
+    .services-txt a:hover {
+        color: #000;
+        font-weight: bold;
+    }
+
     .services-skills {
         padding-top: 4%;
     }
