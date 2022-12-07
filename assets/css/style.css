@@ -1,3 +1,4 @@
+/* import fonts from fonts google */
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Raleway:wght@300&family=Satisfy&display=swap');
 
 * {
@@ -22,7 +23,6 @@ h2 {
 section {
     overflow: hidden;
 }
-
 
 /* footer */
 footer {
@@ -167,6 +167,7 @@ input[type=text], input[type=email], textarea {
 /* Home page styles */
 
 /* Home page first section with picture and title */
+/* Code from the Love Running project. Attributes and values for the picture */
 #title-block {
     width: 60%;
     height: 40%;
@@ -261,6 +262,7 @@ input[type=text], input[type=email], textarea {
     position: relative;
 }
 
+/* Code from w3schools.com */
 .services-section {
     margin: 0;
     padding: 2%;
