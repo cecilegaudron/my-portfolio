@@ -48,6 +48,7 @@ This section allows to create a link with the user. The latter may or may not ha
 - __Navigation Bar__
 
 The navigation bar is present on all pages, in a fixed way, in order to facilitate the navigation through the website. When you scroll on a page to view the content, the navigation bar remains fixed at the top of the screen. 
+The logo is clickable, the link points to the home page
 
 ![Nav Bar](/assets/screenshots/header.png)
 
@@ -68,19 +69,25 @@ I made the choice to display my top page photos in background directly in the st
 
 I would like to continue to enrich this portfolio, first of all with the future skills I will acquire during the training, but also by posting or putting links to my future projects and work.
 
+The website will then be proposed in French and maybe in German.
+
 ## Testing
 
-I tried a lot of things when making this portfolio. Many attributes but also values were not completely clear to me. I tested several options and check if it worked correctly or not. I was very inspired by the courses and examples of the w3schools.com website.
+- I tried a lot of things when making this portfolio. Many attributes but also values were not completely clear to me. I tested several options and check if it worked correctly or not. I was very inspired by the courses and examples of the w3schools.com website.
 
-When validating my html code by Validator Testing, I have errors with the h2 child of spans. I deleted the span and I replace them by a div.
+- When validating my html code by Validator Testing, I have errors with the h2 child of spans. I deleted the span and I replace them by a div.
 
-The site, its different pages and sections are adapted to different screen sizes. Two points were created with the help of @media 768px for tablets and 992px for screens. I decided to make a third point for extra small devices (below 576px) because my logo doesn't display well with such a small size.
+- The site, its different pages and sections are adapted to different screen sizes. Two points were created with the help of @media 768px for tablets and 992px for screens. I decided to make a third point for extra small devices (below 576px) because my logo doesn't display well with such a small size.
 
-I have encountered a problem with the blocks of the Services page. Thanks to the "align-items: center" property, the blocks are centered by default. In tablet view, it works too. But in desktop view, the blocks are not the same size and it's not pretty. After several unsuccessful attempts, the value "align-items : normal" will fix things.
+- I have encountered a problem with the blocks of the Services page. Thanks to the "align-items: center" property, the blocks are centered by default. In tablet view, it works too. But in desktop view, the blocks are not the same size and it's not pretty. After several unsuccessful attempts, the value "align-items : normal" will fix things.
 
 ![Align Items](/assets/screenshots/align-items.png)
 
-I have a horizontaly scroolbar, all my sections are with "width:100%". I add the attribute "max-width:100%" to the nav and footer. 
+- I have a horizontaly scroolbar whereas all my sections are with "width:100%". I add the attribute "max-width:100%" to the nav and footer.
+
+- In the About page, in desktop view and only in this view, I have a problem with a span tag with text that is displayed on two lines. To fix it, I reduce the padding of the span and add the attribute display with the value inline-block.
+
+![Skills line](/assets/screenshots/skills-line.png)
 
 ### Validator Testing
 
@@ -91,9 +98,6 @@ No errors were found when passing through the official [Jigsaw validator](https:
 
 ### Unfixed Bugs
 
-In the About page, in desktop view and only in this view, I have a problem with a span tag with text that is displayed on two lines. To fix it, I reduce the padding of the span and add the attribute display with the value inline-block.
-
-![Skills line](/assets/screenshots/skills-line.png)
 
 ## Deployment
 
