@@ -298,8 +298,9 @@ input[type=text], input[type=email], textarea {
 }
 
 .button-section a:hover {
-    color: #000;
+    color: #FFF;
     text-decoration: underline;
+    font-weight: bolder;
 }
 
 /* SERVICES PAGE */

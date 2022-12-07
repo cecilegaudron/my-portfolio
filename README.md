@@ -25,7 +25,7 @@ The footer of my portfolio lists my copyright as well as the year of update of t
 - __Services Page__
 This is a page that lists what I can provide to a client. This page can replace an information brochure.
 
-- __§__
+- __Take up the Challenge__
 This section aims to convince the user that it is important to take care of his communication. And therefore that he should call on me! I explain why it is essential to have a graphic charter, a website, social networks in order to communicate better with its target. 
 
 - __What I can do for you__
