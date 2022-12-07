@@ -91,7 +91,7 @@ No errors were found when passing through the official [Jigsaw validator](https:
 
 ### Unfixed Bugs
 
-In the About page, in desktop view and only in this view, I have a problem with a span tag with text that is displayed on two lines. 
+In the About page, in desktop view and only in this view, I have a problem with a span tag with text that is displayed on two lines. To fix it, I reduce the padding of the span and add the attribute display with the value inline-block.
 
 ![Skills line](/assets/screenshots/skills-line.png)
 
