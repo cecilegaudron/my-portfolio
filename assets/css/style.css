@@ -108,7 +108,6 @@ nav a:hover {
 }
 
 /* Contact form */
-
 .contact-form {
     background-color: brown;
     color: #fff;
@@ -167,8 +166,7 @@ input[type=text], input[type=email], textarea {
 
 /* Home page styles */
 
-/* Home page first section w picture and title */
-
+/* Home page first section with picture and title */
 #title-block {
     width: 60%;
     height: 40%;
@@ -206,14 +204,13 @@ input[type=text], input[type=email], textarea {
     position: relative;
 }
 
-.first-hp {
+.hp-title {
     background: url('../images/bunker-holga.jpg') no-repeat center center;
 }
 
 
 /* Home page second section w txt */
-
-.second-hp {
+.hp-experiences {
     width: 100%;
     height: auto;
     background-color: brown;
@@ -231,11 +228,11 @@ input[type=text], input[type=email], textarea {
     padding: 3%;
 }
 
-.second-hp .title-paragraph {
+.hp-experiences .title-paragraph {
     padding-top: 5%;
 }
 
-.second-hp ul {
+.hp-experiences ul {
     text-align: left;
     color: #fff;
     list-style-type: square;
@@ -256,8 +253,7 @@ input[type=text], input[type=email], textarea {
 
 
 /* Home page third section services */
-
-.third-hp {
+.hp-services {
     width: 100%;
     background: url('../images/church-holga.jpg') no-repeat;
     overflow: hidden;
@@ -303,7 +299,7 @@ input[type=text], input[type=email], textarea {
     font-weight: bolder;
 }
 
-/* SERVICES PAGE */
+/* Services Page */
 
 /* picture and title section */
 .services-title {
@@ -379,7 +375,7 @@ input[type=text], input[type=email], textarea {
     text-align: left;
 }
 
-/* ABOUT PAGE */
+/* About page */
 
 /* picture and title section */
 .about-title {
@@ -457,8 +453,7 @@ input[type=text], input[type=email], textarea {
 }
 
 .hobbies {
-    padding: 6%
-    ;
+    padding: 6%;
 }
 
 .hobbies i {
@@ -482,7 +477,7 @@ input[type=text], input[type=email], textarea {
     border-radius: 12px;
 }
 
-/* MEDIA QUERIES */
+/* Media Queries */
 
 /* For large phones */
 @media only screen and (min-width: 576px) {
@@ -502,8 +497,7 @@ input[type=text], input[type=email], textarea {
     }
 
     /* Home Page */
-
-    .first-hp {
+    .hp-title {
         background-size: cover;
         height: 700px;
     }
@@ -515,7 +509,7 @@ input[type=text], input[type=email], textarea {
         top: 55%;
     }
 
-    .third-hp {
+    .hp-services {
         overflow: hidden;
         height: 500px;
         background-size: cover;
@@ -538,7 +532,7 @@ input[type=text], input[type=email], textarea {
         padding: 1%;
     }
 
-    /* ABOUT PAGE TABLETS */
+    /* About page */
     .about-title #title-block {
         width: 30%;
         left: 60%;
@@ -592,7 +586,7 @@ input[type=text], input[type=email], textarea {
     border-radius: 40px;
 }
 
-/* SERVICES PAGE */
+/* Services page */
     .service-title #title-block {
         width: 35%;
         left: 55%;
@@ -639,7 +633,7 @@ input[type=text], input[type=email], textarea {
     }
 }
 
-/* FOR DESK */
+/* For desks */
 @media only screen and (min-width: 992px) {
     #logo {
         width: 12%;
@@ -650,8 +644,8 @@ input[type=text], input[type=email], textarea {
         padding: 2%;
     }
 
-    /* HP first section */
-    .first-hp {
+    /* Home page first section */
+    .hp-title {
         background-size: cover;
         background-position: top center;
         height: 700px;
@@ -664,7 +658,7 @@ input[type=text], input[type=email], textarea {
         top: 50%;
     }
     
-    /* HP second section EXPERIENCES */
+    /* Home Page section Experiences */
     .experiences {
         margin: auto;
         display: flex;
@@ -682,20 +676,20 @@ input[type=text], input[type=email], textarea {
         padding: 1%;
     }
 
-    /* HP third section SERVICES */
+    /* Home Page section Services */
     .button-section {
         width: 15%;
         margin: auto;
         padding: 1.2%;
     }
 
-    .third-hp {
+    .hp-services {
         overflow: hidden;
         height: 400px;
         background-size: cover;
     }
 
-    /* HP CONTACT section */
+    /* Home Page section Contact */
 
     .contact-form {
         padding: 1%;
@@ -726,7 +720,7 @@ input[type=text], input[type=email], textarea {
         justify-content: space-between;
     }
 
-    /* ABOUT PAGE */
+    /* About Page */
     .about-title #title-block {
         width: 20%;
         left: 70%;
@@ -741,7 +735,7 @@ input[type=text], input[type=email], textarea {
         padding: 2%;
     }
 
-    /* picture and hobbies section */
+    /* About Page picture and hobbies section */
     #profile-picture img {
         width: 20%;
     }
@@ -763,7 +757,7 @@ input[type=text], input[type=email], textarea {
         padding: 1%;
     }
 
-    /* SERVICES PAGE */
+    /* Services Page */
     .services-title #title-block {
         width: 25%;
         left: 65%
