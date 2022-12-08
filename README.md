@@ -129,4 +129,4 @@ The site is live here : https://cecilegaudron.github.io/my-portfolio/
 
 ### Media
 
-All pictures are from me.
+All pictures and the logo are from me.
